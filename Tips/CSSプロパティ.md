@@ -60,6 +60,7 @@
 ## grid-template-colums grid型での横並びの比率
 - 1fr 1fr 1fr 「1:1:1」
 - repeat(3, 1fr) 「1:1:1」
+- 1/5 「区切りの1から5まで広げる」
 
 ## grid-template-rows grid型での縦並びの比率
 
@@ -83,3 +84,5 @@
 ## aspect-ratio 比率を変える
 
 ## border-collapse: collapse; 表の枠を一本の直線にする
+
+## sursor: pointer; マウスオーバーを指カーソルに変更
