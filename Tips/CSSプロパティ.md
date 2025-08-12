@@ -5,9 +5,9 @@
 ## font-size	文字の大きさ
 
 ## font-weight	文字の太さ
-`font-weight: bold;`
-
 太字
+
+`font-weight: bold;`
 
 ## background-color	背景色
 
@@ -22,18 +22,18 @@
 ## background-repeat	背景画像の繰り返し
 
 ## background-size	背景画像の大きさ
-`background-size: cover;`
-
 背景画像を縦横比を保持したまま全表示
 
-`background-size: contain;`
+`background-size: cover;`
 
 背景画像を縦横比を保持したまま空白あり表示
 
-## background-position	画像の中心点
-`background-position: center center;`
+`background-size: contain;`
 
+## background-position	画像の中心点
 背景画像の中心点を真ん中にする
+
+`background-position: center center;`
 
 ## margin	外側余白
 
@@ -42,9 +42,9 @@
 ## border-radius	角の丸み
 
 ## text-align	文章に位置
-`text-align: center;`
-
 文章を中央揃え
+
+`text-align: center;`
 
 ## text-decoration: none;	下線を無くす
 
