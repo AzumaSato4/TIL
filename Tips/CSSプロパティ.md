@@ -53,6 +53,15 @@
 ## display 要素の並ぶ型
 - inline
 - block
-- flex
+- flex 横並び
 
-## justify-content
+## justify-content 要素の進行方向に対して要素を揃える
+- center 中央揃え
+- space-between 両端と均等配置
+- space-around 均等配置
+
+## aline-item 要素の進行方向に対して垂直に要素を揃える
+
+## list-style-type: none; リストのマークを消す
+
+## gap 子要素の隙間を作る（内側）
