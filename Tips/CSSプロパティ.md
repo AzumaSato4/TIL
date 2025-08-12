@@ -51,9 +51,16 @@
 ## box-sizing: border-box;	余白計算を含み計算にする
 
 ## display 要素の並ぶ型
-- inline
-- block
-- flex 横並び
+- inline 平べったく横並び
+- block 横いっぱいに広がる縦並び
+- inline-block block型を横並び
+- flex 大雑把に整列
+- grid 細かく整列（数値入力必要）
+
+## grid-template-colums grid型での横並びの比率
+- 1fr 1fr 1fr 「1:1:1」
+
+## grid-template-rows grid型での縦並びの比率
 
 ## justify-content 要素の進行方向に対して要素を揃える
 - center 中央揃え
@@ -65,3 +72,7 @@
 ## list-style-type: none; リストのマークを消す
 
 ## gap 子要素の隙間を作る（内側）
+
+## object-fit 大きさによって比率は崩さない（初期値中央のまま）
+- contain 余りは切り取る
+- cover 不足は伸ばす
