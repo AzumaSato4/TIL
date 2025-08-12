@@ -82,4 +82,4 @@
 
 ## aspect-ratio 比率を変える
 
-## border-collapse: collapse; 表を一本の直線にする
+## border-collapse: collapse; 表の枠を一本の直線にする
