@@ -63,3 +63,21 @@
   </tbody>
 </table>
 ```
+
+##フォーム作成
+```
+<form action="#" method="post" class="contact-form">
+  <div>
+    <label for="name">お名前:</label>
+    <input type="text" id="name" name="user_name">
+  </div>
+  <div>
+    <label for="email">メールアドレス:</label>
+    <input type="email" id="email" name="user_email">
+  </div>
+  <div>
+    <label for="message">お問い合わせ内容:</label>
+    <textarea id="message" name="user_message"></textarea>
+  </div>
+  <input type="submit" value="送信する">
+</form>
