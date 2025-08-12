@@ -59,6 +59,7 @@
 
 ## grid-template-colums grid型での横並びの比率
 - 1fr 1fr 1fr 「1:1:1」
+- repeat(3, 1fr) 「1:1:1」
 
 ## grid-template-rows grid型での縦並びの比率
 
@@ -76,3 +77,8 @@
 ## object-fit 大きさによって比率は崩さない（初期値中央のまま）
 - contain 余りは切り取る
 - cover 不足は伸ばす
+
+## border 線を引く
+
+## aspect-ratio 比率を変える
+
