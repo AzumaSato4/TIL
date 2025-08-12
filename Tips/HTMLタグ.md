@@ -64,7 +64,7 @@
 </table>
 ```
 
-##フォーム作成
+## フォーム作成
 ```
 <form action="#" method="post" class="contact-form">
   <div>
