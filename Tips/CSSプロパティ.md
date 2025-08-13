@@ -61,6 +61,10 @@
 - flex 大雑把に整列
 - grid 細かく整列（数値入力必要）
 
+## flex-direction flex型での並び方
+- colums 縦並び
+- rows 横並び
+
 ## grid-template-colums grid型での横並びの比率
 - 1fr 1fr 1fr 「1:1:1」
 - repeat(3, 1fr) 「1:1:1」
@@ -84,9 +88,20 @@
 - cover 不足は伸ばす
 
 ## border 線を引く
+以下を指定
+- 太さ
+- 種類
+- 色
 
 ## aspect-ratio 比率を変える
 
 ## border-collapse: collapse; 表の枠を一本の直線にする
 
 ## sursor: pointer; マウスオーバーを指カーソルに変更
+
+## box-shadow boxに影をつける
+box-shadow: 右 下 ぼかし 色;
+
+## line-height 行間
+
+## @media(max-width: ) レスポンシブ対応
