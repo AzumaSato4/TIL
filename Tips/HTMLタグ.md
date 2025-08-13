@@ -34,6 +34,10 @@
 
 `<a href="" target="_blank"> </a>`
 
+ページ内リンク
+
+`<a href="#"> </a>`
+
 ## img 画像を挿入
 
 `<img src="" alt="">`
@@ -81,3 +85,5 @@
   </div>
   <input type="submit" value="送信する">
 </form>
+```
+
