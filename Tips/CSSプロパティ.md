@@ -1,5 +1,9 @@
 # CSSプロパティ集
 
+## ress リセットCSS（自分のCSSより上に書く）
+`<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"/>`
+
+
 ## color	文字色
 
 ## font-size	文字の大きさ
