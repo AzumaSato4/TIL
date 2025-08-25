@@ -35,3 +35,17 @@ else
 ```
 
 -switch文
+```
+switch (変数)
+{
+    case 条件1:
+        処理
+        break;
+    case 条件2:
+        処理
+        break;
+    default:
+        処理
+        break;
+}
+```
