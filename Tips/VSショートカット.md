@@ -3,3 +3,6 @@
 Ctrl + A 全選択 or 範囲選択
 
 Ctrl + K -> Ctrl + F
+
+## 複製
+Ctrl + D
