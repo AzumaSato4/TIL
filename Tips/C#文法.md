@@ -71,7 +71,7 @@ switch (変数)
 ```
 Random 変数名 = new Random();
 変数名.Next(a,b)
-<!-- a以上b未満 -->
+a以上b未満
 ```
 
 ## 繰り返し
@@ -100,11 +100,62 @@ while (条件)
 ```
 public string 変数名（頭は大文字）
 {
-    get { return 変数名; } //読み取り機能
-    set { 変数名 = 代入する変数名; } //書き込み機能
+    get { return 変数名; } 読み取り機能
+    set { 変数名 = 代入する変数名; } 書き込み機能
 }
 ```
 
 ## オーバーライド
 - 継承元に「virtual」宣言
 - 継承先に「override」宣言
+
+## リスト
+```
+List<型名> 変数名 = new List<型名>();
+変数名.Add(値);
+```
+
+```
+変数名.Count
+```
+リストの長さを値として出力
+
+## ディクショナリー
+```
+Dictionary<キー型名, 型名> 変数名 = new Dictionary<キー
+型名, 型名>();
+```
+
+## ラムダ式
+```
+int Add(int n)
+{
+    return n + 5;
+}
+```
+↓ラムダ式
+```
+n => n+ 5
+```
+
+```
+int Add(int a, int b)
+{
+    return a + b;
+}
+```
+↓ラムダ式
+```
+(a, b) => a + b
+```
+
+```
+bool InPositive(int n)
+{
+    return n >= 0;
+}
+```
+↓ラムダ式
+```
+n => n >= 0
+```
