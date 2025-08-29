@@ -146,6 +146,8 @@ int Add(int n)
 n => n+ 5
 ```
 
+***
+
 ```
 int Add(int a, int b)
 {
@@ -156,6 +158,8 @@ int Add(int a, int b)
 ```
 (a, b) => a + b
 ```
+
+***
 
 ```
 bool InPositive(int n)
