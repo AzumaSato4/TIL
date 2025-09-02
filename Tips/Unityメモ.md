@@ -17,12 +17,12 @@ Input.GetAxisRaw(指定方向キー)
 
 ## フレームレート制御
 
-'''c#
+```c#
 private void FixedUpdate()
 {
     処理
 }
-'''
+```
 
 ## インスペクターで変数の値を変更
 
