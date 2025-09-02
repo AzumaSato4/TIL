@@ -1,10 +1,16 @@
 # HTMLタグ集
 
 ## nav ナビゲーションメニュー
-`<nav> </nav>`
+
+```html
+<nav> </nav>
+```
 
 ## article 読み物、記事部分
-`<article> </article>`
+
+```html
+<article> </article>
+```
 
 ## section テーマを持ったグループ
 `<section> </section>`
