@@ -13,43 +13,74 @@
 ```
 
 ## section テーマを持ったグループ
-`<section> </section>`
+
+```html
+<section> </section>
+```
 
 ## aside サイドバー
-`<aside> </aside>`
+
+```html
+<aside> </aside>
+```
 
 ## div 意味を持たないグループ
-`<div> </div>`
+
+```html
+<div> </div>
+```
 
 ## span 意味を持たないグループ（改行なし）
-`<span> </span>`
+
+```html
+<span> </span>
+```
 
 ## ol 番号付き箇条書き
-`<ol> </ol>`
+
+```html
+<ol> </ol>
+```
 
 ## ul 番号なし箇条書き
-`<ul> </ul>`
+
+```html
+<ul> </ul>
+```
 
 ## li 箇条書きするアイテム
-`<li> </li>`
+
+```html
+<li> </li>
+```
 
 ## a リンクを貼る
-`<a href=""> </a>`
+
+```html
+<a href=""> </a>
+```
 
 リンクを貼る（別タブで開く）
 
-`<a href="" target="_blank"> </a>`
+```html
+<a href="" target="_blank"> </a>
+```
 
 ページ内リンク（id名）
 
-`<a href="#"> </a>`
+```html
+<a href="#"> </a>
+```
 
 ## img 画像を挿入
 
-`<img src="" alt="">`
+```html
+<img src="" alt="">
+```
 
 ## table 表を作成
-```
+
+```html
 <table>
   <thead>
     <tr>
@@ -75,7 +106,8 @@
 ```
 
 ## フォーム作成
-```
+
+```html
 <form action="#" method="post" class="contact-form">
   <div>
     <label for="name">お名前:</label>
@@ -92,5 +124,9 @@
   <input type="submit" value="送信する">
 </form>
 ```
+
 ## © コピーライト
-`&copy;`
+
+```html
+&copy;
+```
