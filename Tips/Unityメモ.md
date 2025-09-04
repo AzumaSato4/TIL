@@ -64,3 +64,7 @@ AddForce(方向, ForceMode2D.Impulse);
 ```c#
 LayerMask 変数名;
 ```
+
+## Updateの中でパソコンの性能差に左右されずに機能させる
+
+(Time.deltaTime)を掛け算する
