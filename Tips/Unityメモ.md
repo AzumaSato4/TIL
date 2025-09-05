@@ -68,3 +68,18 @@ LayerMask 変数名;
 ## Updateの中でパソコンの性能差に左右されずに機能させる
 
 (Time.deltaTime)を掛け算する
+
+## 当たり判定
+
+- Add Component > Colliderで付与
+- is Triggerにチェックを入れるとすり抜けられる
+
+## 簡単に他から読み書きができる
+
+- 変数（型）の前に「static」を入れる
+
+## コンソールに表示する
+
+```c#
+Debug.Log("表示");
+```
