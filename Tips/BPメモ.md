@@ -71,3 +71,7 @@
 ### Add Movement Input
 
 移動値を送り込む
+
+### AI MoveTo
+
+Pawnピンに繋いだボーンのAIコントローラーに移動命令を出す
