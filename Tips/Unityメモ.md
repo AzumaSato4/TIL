@@ -91,3 +91,36 @@ Debug.Log("表示");
 ```c#
 Invoke("メソッド名", 1.0f);
 ```
+
+## TextMeshProについて
+
+ - TextMeshProUGUI
+ - using TMProを設定すると使える
+
+## 型変更
+
+- int型 -> string型 = 後ろに「.ToString()」をつける
+
+## 切り上げ
+
+Mathf.Ceil(変えたい変数)
+
+## 物体間の距離
+
+物体Aと物体Bの距離
+
+```c#
+Distance(物体A, 物体B);
+```
+
+## 特定タグのオブジェクトを探す
+
+```c#
+GameObject.FindGameObjectWithTag("タグ名")
+```
+
+## 生成メソッド
+
+```c#
+Instantiate(生成物, 場所, 回転)
+```
