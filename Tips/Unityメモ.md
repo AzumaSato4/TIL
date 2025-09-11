@@ -124,3 +124,17 @@ GameObject.FindGameObjectWithTag("タグ名")
 ```c#
 Instantiate(生成物, 場所, 回転)
 ```
+
+## 指定移動
+
+```c#
+Vector2.Lerp(開始位置, 終了位置, 進捗率)
+```
+
+↓times分の時間をかけて移動する
+```c#
+float distance = Vector2.Distance(startPos, endPos); //移動距離
+float ds = distance / times; //1秒の移動距離
+float df = ds * Time.deltatime; //1フレームの移動距離
+movep += df / distance; //移動補完値（進捗率）
+```
