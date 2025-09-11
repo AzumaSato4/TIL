@@ -132,6 +132,7 @@ Vector2.Lerp(開始位置, 終了位置, 進捗率)
 ```
 
 ↓times分の時間をかけて移動する
+
 ```c#
 float distance = Vector2.Distance(startPos, endPos); //移動距離
 float ds = distance / times; //1秒の移動距離
