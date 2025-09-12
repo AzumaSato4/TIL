@@ -139,3 +139,16 @@ float ds = distance / times; //1秒の移動距離
 float df = ds * Time.deltatime; //1フレームの移動距離
 movep += df / distance; //移動補完値（進捗率）
 ```
+
+## 現在シーン情報の取得
+
+```c#
+GetActiveScene();
+```
+
+## 完成後のビルド
+
+以下を設定
+
+- Compression Format <- Gzip
+- Decompression Fallback <- ON
