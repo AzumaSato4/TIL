@@ -152,3 +152,19 @@ GetActiveScene();
 
 - Compression Format <- Gzip
 - Decompression Fallback <- ON
+
+## コルーチンのメソッド
+
+```c#
+IEnumerator メソッド名(){}
+```
+
+## 角度を求める
+
+```c#
+//第一引数に高さY、第二引数に底辺Xを与えると角度をラジアン形式で算出（演習の長さで表現）
+float rad = Mathf.Atan2(dirY, dirX);
+
+//ラジアン値をオイラー値(デグリー)に変換
+angle = rad * Mathf.Rad2Deg;
+```
