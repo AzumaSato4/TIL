@@ -168,3 +168,14 @@ float rad = Mathf.Atan2(dirY, dirX);
 //ラジアン値をオイラー値(デグリー)に変換
 angle = rad * Mathf.Rad2Deg;
 ```
+
+## 加速度センサー
+
+```c#
+vector.x = Input.acceleration.x;
+vector.z = Input.acceleration.y;
+vector.y = Input.acceleration.z;
+```
+
+スマートフォンの加速度センサーの入力を取得。
+Y軸とZ軸に注意。
